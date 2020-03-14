@@ -2,3 +2,152 @@
 	margin: 0;
 	padding:0;
 }
+
+body{
+	font-family: Roboto;
+	padding: 1em;
+}
+
+header{
+	font-size: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+h2{
+	font-size: 1.2em;
+	margin: .5em;
+}
+
+#Monto{
+	display: flex;
+	font-size: 2em;
+	align-items: center;
+}
+
+#Dinero{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 35px 35px 35px 35px;
+	padding: 1em;
+	width: 60%;
+	margin-right: 1em;
+}
+i{
+	margin: .5em;
+	font-size: 1.5em;
+}
+
+#Caja{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 35px 35px 35px 35px;
+	padding: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#Contenedor{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1em;
+	margin: 1em;
+}
+.Gris{
+	color: gray;
+}
+
+.Blanco{
+	color:white;
+	background-color:red;
+}
+
+
+#Lista1{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5em;
+	margin: 1em;
+}
+
+li{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 15px 15px 15px 15px;
+	padding: 1em;
+}
+
+ul{
+	list-style-type: none;
+}
+
+h4{
+	font-size: 1.2em;
+	margin:1em;
+}
+
+#Interes{
+	display: flex;
+}
+
+#Bitcoin{
+	font-size: 3em;
+	background-color: red;
+	border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	width: 45%;
+	height: 10em;
+}
+
+.Primero{ 
+	color: white;
+}
+
+#Porcentaje1{
+	font-size: .9em;
+	margin-left: .8em;
+	margin-bottom: .3em;
+}
+
+#AlFinal{
+	font-size: .4em;
+	margin-left: 1.5em;
+	margin-bottom: 6em;
+}
+
+#Pagos{
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 15px 15px 15px 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	width: 45%;
+	margin-left: 10%;
+}
+
+#Porcentaje2{
+	font-size: 2.5em;
+	margin-left: .8em;
+	margin-bottom: .3em;
+}
+
+#Mensual{
+	font-size: 1.2em;
+	margin-left: 1.5em;
+	margin-bottom: 6em;
+}
+
+#Calcular{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2em;
+	height: 2.5em;
+
+	margin-top: 1em;
+	
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 15px 15px 15px 15px;
+
+}
